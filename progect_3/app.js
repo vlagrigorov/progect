@@ -87,7 +87,7 @@ console.log(value)
 // console.log (a)
 
 btnIndexTwoElement.onclick = function() {
-    console.log("123")
+    console.log("123");
     // listElement.innerHTML = `
     // <li class="list">
     //     <span>${inputIndexTwo.value}</span>
@@ -98,9 +98,8 @@ btnIndexTwoElement.onclick = function() {
     // </li>
     // `
 // }
-    listElement.insertAdjacentHTML(
-        "beforeend", 
-            `
+    listElement.insertAdjacentHTML("beforeend", 
+        `
             <li class="list">
                 <span>${inputIndexTwo.value}</span>
                 <span class="list_1">
@@ -109,5 +108,5 @@ btnIndexTwoElement.onclick = function() {
                 </span>
             </li>
         `
-        )
-}
+    );
+};
