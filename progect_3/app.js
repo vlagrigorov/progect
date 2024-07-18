@@ -40,35 +40,35 @@ const listElement = document.getElementById("spisok")
 const inputIndexTwo = document.getElementById("inputIndexTwo")
 
 
-// let aray
+let aray
 
 
 
-// plusBtnElement.onclick = function() {
-//     aray = "+"
-//     plusBtnElement.style.backgroundColor = 'green'
-//     minusBtnElement.style.backgroundColor = 'white'
-// } 
+plusBtnElement.onclick = function() {
+    aray = "+"
+    plusBtnElement.style.backgroundColor = 'green'
+    minusBtnElement.style.backgroundColor = 'white'
+} 
 
-// minusBtnElement.onclick = function() {
-//     aray = "-"
-//     minusBtnElement.style.backgroundColor = 'red'
-//     plusBtnElement.style.backgroundColor = 'white'
+minusBtnElement.onclick = function() {
+    aray = "-"
+    minusBtnElement.style.backgroundColor = 'red'
+    plusBtnElement.style.backgroundColor = 'white'
 
-// }
+}
 
 
-// rownElement.onclick = function() {
-//     const win = sumNumber(oneNumberElement, twoNumberElement, aray)
-//     resElement.textContent = win
-//     console.log(resElement.textContent)
-//     if(resElement.textContent < 0){
-//         resElement.style.backgroundColor = 'red'
-//     }else if(resElement.textContent >= 0){
-//         resElement.style.backgroundColor = 'green'
-//     }
+rownElement.onclick = function() {
+    const win = sumNumber(oneNumberElement, twoNumberElement, aray)
+    resElement.textContent = win
+    console.log(resElement.textContent)
+    if(resElement.textContent < 0){
+        resElement.style.backgroundColor = 'red'
+    }else if(resElement.textContent >= 0){
+        resElement.style.backgroundColor = 'green'
+    }
     
-// }
+}
 
 /*
 const value = Math.random();
