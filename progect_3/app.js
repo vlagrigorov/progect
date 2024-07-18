@@ -17,16 +17,16 @@ element.innerHTML = `` использовать HTML в ковычках
 element.inserAdjacentHTML(beforeend)
 */
 
-// function sumNumber(num1, num2, sum) {
-//     if(sum == "+"){
-//         return Number(num1.value) + Number(num2.value)
-//         console.log(sum)
-//     } else if(sum == "-"){
-//         return Number(num1.value) - Number(num2.value)
-//         console.log(sum)
+function sumNumber(num1, num2, sum) {
+    if(sum == "+"){
+        return Number(num1.value) + Number(num2.value)
+        console.log(sum)
+    } else if(sum == "-"){
+        return Number(num1.value) - Number(num2.value)
+        console.log(sum)
 
-//     }
-// }
+    }
+}
 
 
 const btnIndexTwoElement = document.getElementById("btnIndexTwo")
@@ -40,7 +40,7 @@ const listElement = document.getElementById("spisok")
 const inputIndexTwo = document.getElementById("inputIndexTwo")
 
 
-let aray
+let aray = "+";
 
 
 
@@ -88,16 +88,16 @@ console.log(value)
 
 btnIndexTwoElement.onclick = function() {
     console.log("123");
-    // listElement.innerHTML = `
-    // <li class="list">
-    //     <span>${inputIndexTwo.value}</span>
-    //     <span class="list_1">
-    //         <span class="check">&check;</span>
-    //         <span class="times">&times;</span>
-    //     </span>
-    // </li>
-    // `
-// }
+//     // listElement.innerHTML = `
+//     // <li class="list">
+//     //     <span>${inputIndexTwo.value}</span>
+//     //     <span class="list_1">
+//     //         <span class="check">&check;</span>
+//     //         <span class="times">&times;</span>
+//     //     </span>
+//     // </li>
+//     // `
+// // }
     listElement.insertAdjacentHTML("beforeend", 
         `
             <li class="list">
